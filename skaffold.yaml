@@ -4,7 +4,7 @@ metadata:
   name: skaffold-gitops
 build:
   artifacts:
-    - image: javalove93/hello-go
+    - image: anhisg4104/hello-go
       docker:
         dockerfile: Dockerfile
 manifests:
